@@ -130,7 +130,7 @@ void draw(){
 
 void replay(){
   println(bgmPos);
-  bgmPos=bgm.position();
+  bgmPos=int(bgm.position());
   if(bgmPos>=177000){
     bgm.rewind();
   }
