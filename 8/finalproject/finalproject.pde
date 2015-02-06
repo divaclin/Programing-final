@@ -83,10 +83,10 @@ void draw(){
     player.run();
     player.keyPressed();
     //player.keyReleased();
-    pushMatrix();
+  //  pushMatrix();
     translate(0, y); 
     player.jump();
-    popMatrix();
+   // popMatrix();
     rewardMaker(frame);
     drawReward();
     drawScore();
